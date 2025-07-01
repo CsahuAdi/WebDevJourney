@@ -1,0 +1,29 @@
+/* Make body full height and center content */
+body {
+    margin: 20px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* Card styling */
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the image */
+.image-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Text styling */
+.card-text {
+    text-align: justify;
+}
