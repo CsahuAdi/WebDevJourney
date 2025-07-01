@@ -1,10 +1,10 @@
 /* Make body full height and center content */
 body {
     margin: 20px;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
 /* Card styling */
@@ -21,6 +21,21 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.chips-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.chips {
+    margin-right: 3px;
+    padding: 0 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Text styling */
