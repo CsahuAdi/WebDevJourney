@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "metacontent"
+                         "download-btn";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    height: 10vh;
+    width: 20vw;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.logo-item {
+    width: 20vw;
+    height: 10vh;
+}
+
+.nav-item {
+    align-content: center;
+    margin: 2px;
+    padding: 12px;
+}
+
+.mid-l {
+    margin-left: 5vw
+}
+
+.mid-r {
+    margin-right: 5vw;
+}
+
+.mid-items {
+    margin: 0 2vw;
+}
+
+.buttons button{ 
+    margin: 23px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 2px 4px black;
+}
+
+.meta-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.meta-content {
+    grid-area: "meta-content";
+}
+
+.download-btn {
+    grid-area: "download-btn";
+    align-content: center;
+    justify-self: center;
+}
+
+.download-btn button {
+    margin: 23px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 2px 4px black;
+}
+
+.downloads {
+    display: grid;
+    margin: 0 10vw;
+    padding: 2vw;
+}
+
+.download-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 1rem; /* spacing between items */
+    list-style: none;
+    padding: 0;
+}
+
+.download-list li {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-item {
+    display: flex;
+    max-width: 20vw;
+    max-height: 3vh;
+}
+
+.download-lang {
+    display: block;
+}
+
+.btns {
+    display: flex;
+    -ms-flex-align: end;
+    margin: 2px 12px;
+    padding: 0 12px;
+}
